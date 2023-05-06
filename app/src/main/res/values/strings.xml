@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FirstHomework</string>
+    <string name="The_first_Screen">1</string>
+    <string name="The_second_Screen">2</string>
+    <string name="The_third_Screen">3</string>
+
+    <string name="On_the_second_Screen">На второй экран</string>
+    <string name="On_the_first_Screen">На первый экран</string>
+    <string name="On_the_third_Screen">На третий экран</string>
+    <string name="Input_address">Введите адресата!</string>
+    <string name="Input_Name">Введите имя здесь! Нажмите на меня и вводите!</string>
+    <string name="Input">Передать</string>
+</resources>

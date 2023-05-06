@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e8eaf6"
+        android:fontFamily="monospace"
+        android:text="@string/The_first_Screen"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonSecond"
+        style="@android:style/Widget.Material.Light.Button.Toggle"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:background="@color/black"
+        android:onClick="toSecondActivity"
+        android:text="@string/On_the_second_Screen" />
+
+    <Button
+        android:id="@+id/buttonThird"
+        style="@android:style/Widget.Material.Light.Button.Toggle"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:background="@color/black"
+        android:onClick="toThirdActivity"
+        android:text="@string/On_the_third_Screen" />
+
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Введите имя"
+        android:inputType="text"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Введите фамилию"
+        android:inputType="text"
+        android:text="" />
+
+    <Button
+        android:id="@+id/buttonInput"
+        style="@android:style/Widget.Material.Light.Button.Toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:onClick="onCLickSecondActivity"
+        android:text="@string/Input" />
+</LinearLayout>

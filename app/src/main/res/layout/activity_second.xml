@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e8eaf6"
+        android:fontFamily="monospace"
+        android:text="@string/The_second_Screen"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:onClick="toFirstActivity"
+        android:text="@string/On_the_first_Screen" />
+
+    <Button
+        android:id="@+id/buttonThird"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:onClick="toThirdActivity"
+        android:text="@string/On_the_third_Screen" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="40dp" />
+
+
+</LinearLayout>
